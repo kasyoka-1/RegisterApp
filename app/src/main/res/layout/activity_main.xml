@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign up"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.275"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.084" />
+
+    <ImageButton
+        android:layout_width=""
+        android:layout_height=""
+
+    <EditText
+        android:layout_width="327dp"
+        android:layout_height="50dp"
+        android:hint="Enter name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="319dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="392dp" />
+
+
+    <EditText
+        android:layout_width="327dp"
+        android:layout_height="50dp"
+        android:hint="example@gmail.com"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="418dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="485dp" />
+
+    <EditText
+        android:layout_width="327dp"
+        android:layout_height="50dp"
+        android:hint="Pick a strong password"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="511dp" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="293dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="57dp"
+        android:background="#bb23dc"
+        android:text="Sign Up"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="591dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign up with the followung accounts"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="143dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        style="@android:style/Widget.DeviceDefault.ImageButton"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/googleicon"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="183dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already have an account? Log In"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="655dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="170dp"
+        android:layout_height="50dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/googleicon"
+        tools:layout_editor_absoluteX="201dp"
+        tools:layout_editor_absoluteY="183dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="50dp"
+        android:layout_height="52dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/back"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="52dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
